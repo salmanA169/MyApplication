@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.util.Log
@@ -19,5 +20,9 @@ class NewActivity:AppCompatActivity() {
         super.onPause()
         Log.d("Main","try")
         Log.d("Main","try")
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
     }
 }
