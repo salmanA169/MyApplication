@@ -8,5 +8,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         println("first commit")
+        println("this is new branch")
+
+        println("edit after forth")
     }
 }
