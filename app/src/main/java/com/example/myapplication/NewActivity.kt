@@ -18,5 +18,6 @@ class NewActivity:AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         Log.d("Main","try")
+        Log.d("Main","try")
     }
 }
