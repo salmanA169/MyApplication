@@ -3,9 +3,8 @@ package com.example.myapplication.entities
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 @Entity
-data class Student(
+data class Subject(
     @PrimaryKey(autoGenerate = false)
-    val studentName:String,
-    val semester:Int,
-    val schoolName:String
+    val subjectName:String
+
 )
